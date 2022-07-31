@@ -26,6 +26,6 @@ class calIP():
         return self.broadAddr
 
     def printOutput(self):
-        print()
+        print('=======================================')
         print('Network Address: {}\nBroadcast Address: {}'.format(
             calIP.calNetAddr(self), calIP.calBroadAddr(self)))
